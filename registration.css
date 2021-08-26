@@ -1,0 +1,39 @@
+ .register{
+ 	margin-top: 100px;
+ 	width: 400px;
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+
+}
+.register input{
+	width: 310px;
+	padding: 5px 0;
+
+}
+.first-name{
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.last-name{
+	display: block;
+ 
+}
+.rest{
+	padding: 20px;
+	display: block;
+}
+.demo{
+	padding: 20px;
+	display: block;
+	margin-bottom: -25px;
+}
+ .register input[type="text"]{
+ 	width: 150px;
+ 	padding: 5px 0px;
+ }
+ .btn{
+ 	margin-left: 21px;
+ 	width: 250px;
+ }

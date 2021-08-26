@@ -1,0 +1,186 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #e0e0e0;
+}
+.header{
+	background-image: url("img/charity13.jpg");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: 1349px 620px;
+	width: 1349px;
+	height: 620px;
+}
+.header-title{
+	display: inline-block;
+	margin: 0 auto;
+}
+.header-title h3{
+	font-size: 30px;
+	color: white;
+	margin-top: 27px;
+	margin-left: 199px;
+	font-family:lato, Arial,sans-seri;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.heading-left{
+	float: left;
+}
+.heading-right{
+	float: right;
+}
+.heading-left ul {
+	list-style: none;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.heading-left ul li {
+	float: left;
+}
+.heading-left ul li a{
+	padding: 10px 20px;
+	color: white;
+	text-decoration: none;
+	background-color: #000;
+}
+.heading-left ul li a:hover{
+	background:orange;
+}	
+.heading-right ul {
+	list-style: none;
+	margin-right: 118px;
+	margin-top: 40px;
+}
+.heading-right ul li {
+	display: inline;
+}
+.heading-right ul li a{
+	padding: 15px;
+	color: white;
+	border-right-style: solid;
+}
+.a1{
+	border-right-style: solid;
+	border-left-style: solid;
+}
+
+.mid-heading{
+	float: left;
+	width: 545px;
+    height: 271px;
+    margin-left: 118px;
+    margin-top: 56px;
+    
+    font-family: Lato,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    line-height: 3rem;
+}
+.mid-heading1{
+	font-size: 39px;
+    line-height: 3rem;
+    font-weight: 900;
+}
+.mid-heading2{
+	margin-top:-21px;
+	font-size: 31px;
+	font-weight: normal;  
+}
+.mid-head-btn{
+	background-color: #00b964;
+	padding: 15px 21px;
+	font-family: Lato,Arial,sans-serif;
+	font-size: 19px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 4px;  
+}
+.mid-head-para{
+	margin-top: 170px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.story-title{
+    margin-top: 75px;
+    margin-left: 200px;
+    font-family: Lato,Arial,sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.top-stories{
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.story{
+	width: 300px;
+	float: left;
+	margin-right: 30px;
+	background-color: #f5f5f5;
+	border: 1px;
+}
+.story img{
+	width: 300px;
+	height: 180px;
+}
+.story p{
+	margin: 0;
+	text-align: justify;
+}
+.nomrgn{
+	margin-right: 0px;
+}
+.story-btn{
+	float: right;
+    width: 105px;
+    height: 36px;
+    font-size: 24px;
+    padding: 17px;
+    text-decoration: none;
+}
+.team-img img{
+	width: 551px;
+    height: 399px;
+    margin-top: 126px;
+    margin-left: 221px;
+}
+.team-list{
+	margin-left: 220px
+}
+.team-list ul li{
+	font-size: 20px;
+	font-family: Lato,Arial,sans-serif;
+}
+.footer{
+  background: #152F4F;
+  color:white;
+  
+  #link{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
